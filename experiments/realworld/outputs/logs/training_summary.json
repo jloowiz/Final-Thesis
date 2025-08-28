@@ -1,0 +1,25 @@
+{
+  "dataset": "realworld_6k",
+  "total_epochs": 20,
+  "best_val_loss": 3.7601601874574704,
+  "final_train_loss": 0.8150542972354652,
+  "final_val_loss": 5.148790909888897,
+  "train_dataset_size": 4500,
+  "val_dataset_size": 1500,
+  "model_config": {
+    "name": "ssd300_vgg16",
+    "num_classes": 7,
+    "backbone": "vgg16",
+    "pretrained": true,
+    "input_size": 300
+  },
+  "training_config": {
+    "batch_size": 8,
+    "num_epochs": 20,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0005,
+    "momentum": 0.9,
+    "step_size": 10,
+    "gamma": 0.5
+  }
+}

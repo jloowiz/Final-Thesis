@@ -1,0 +1,257 @@
+[
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc30fc-e7726578.jpg",
+    "image_name": "cabc30fc-e7726578.jpg",
+    "detections": [
+      {
+        "bbox": [
+          461.7545471191406,
+          401.1112365722656,
+          591.7401123046875,
+          492.215576171875
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.9055313467979431
+      }
+    ],
+    "num_detections": 1
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc30fc-eb673c5a.jpg",
+    "image_name": "cabc30fc-eb673c5a.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          300.25299072265625,
+          274.7106018066406,
+          532.275634765625
+        ],
+        "label": 2,
+        "class_name": "Bus",
+        "confidence": 0.603424072265625
+      },
+      {
+        "bbox": [
+          422.08172607421875,
+          367.4356384277344,
+          614.4324951171875,
+          507.3464660644531
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.5872857570648193
+      },
+      {
+        "bbox": [
+          5.822314739227295,
+          297.9547119140625,
+          281.2313232421875,
+          536.6234741210938
+        ],
+        "label": 4,
+        "class_name": "Truck",
+        "confidence": 0.515427827835083
+      }
+    ],
+    "num_detections": 3
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc30fc-fd79926f.jpg",
+    "image_name": "cabc30fc-fd79926f.jpg",
+    "detections": [
+      {
+        "bbox": [
+          312.5733337402344,
+          399.28704833984375,
+          585.3514404296875,
+          579.8649291992188
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.9917540550231934
+      },
+      {
+        "bbox": [
+          714.3314819335938,
+          435.7135925292969,
+          803.2450561523438,
+          505.3687438964844
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.7569795250892639
+      },
+      {
+        "bbox": [
+          655.5889282226562,
+          429.2908935546875,
+          716.2902221679688,
+          476.2568054199219
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.5982292890548706
+      }
+    ],
+    "num_detections": 3
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-1b8282ba.jpg",
+    "image_name": "cabc9045-1b8282ba.jpg",
+    "detections": [
+      {
+        "bbox": [
+          102.72593688964844,
+          245.64283752441406,
+          257.23553466796875,
+          304.7379455566406
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.6925269961357117
+      }
+    ],
+    "num_detections": 1
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-581f64de.jpg",
+    "image_name": "cabc9045-581f64de.jpg",
+    "detections": [
+      {
+        "bbox": [
+          0.0,
+          425.6004333496094,
+          1224.5499267578125,
+          680.3432006835938
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.6494271159172058
+      }
+    ],
+    "num_detections": 1
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-5a50690f.jpg",
+    "image_name": "cabc9045-5a50690f.jpg",
+    "detections": [],
+    "num_detections": 0
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-b3349548.jpg",
+    "image_name": "cabc9045-b3349548.jpg",
+    "detections": [
+      {
+        "bbox": [
+          635.060302734375,
+          220.8175811767578,
+          772.2301025390625,
+          297.2474670410156
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.9018200039863586
+      }
+    ],
+    "num_detections": 1
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-c6dc9529.jpg",
+    "image_name": "cabc9045-c6dc9529.jpg",
+    "detections": [
+      {
+        "bbox": [
+          229.8022003173828,
+          249.5978240966797,
+          346.5419921875,
+          318.5118408203125
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.8944122195243835
+      },
+      {
+        "bbox": [
+          140.66331481933594,
+          275.8226623535156,
+          221.059326171875,
+          315.59515380859375
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.6603079438209534
+      },
+      {
+        "bbox": [
+          79.65719604492188,
+          273.37835693359375,
+          150.44003295898438,
+          319.99237060546875
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.6371343731880188
+      }
+    ],
+    "num_detections": 3
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-cd422b81.jpg",
+    "image_name": "cabc9045-cd422b81.jpg",
+    "detections": [],
+    "num_detections": 0
+  },
+  {
+    "image_path": "D:/Thesis/test/test3\\test\\cabc9045-d91ecb66.jpg",
+    "image_name": "cabc9045-d91ecb66.jpg",
+    "detections": [
+      {
+        "bbox": [
+          52.711307525634766,
+          195.61329650878906,
+          313.3506774902344,
+          341.216064453125
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.9899719953536987
+      },
+      {
+        "bbox": [
+          803.19677734375,
+          227.1937255859375,
+          1013.2870483398438,
+          345.86431884765625
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.892844021320343
+      },
+      {
+        "bbox": [
+          1064.707275390625,
+          325.3962707519531,
+          1280.0001220703125,
+          464.07464599609375
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.7953701019287109
+      },
+      {
+        "bbox": [
+          937.3522338867188,
+          246.39808654785156,
+          1183.9144287109375,
+          406.7162170410156
+        ],
+        "label": 1,
+        "class_name": "Car",
+        "confidence": 0.6281411647796631
+      }
+    ],
+    "num_detections": 4
+  }
+]
