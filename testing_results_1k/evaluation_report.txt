@@ -1,0 +1,53 @@
+SSD300 Model Evaluation Report - BDD100K 1K Test Set
+============================================================
+
+Model: experiments/realworld/outputs/models/ssd300_best.pth
+Test Dataset: testing/bdd100k_filtered_1k/annotations/instances_val.json
+Number of test images: 1000
+Total predictions generated: 200000
+
+Overall Metrics:
+  Precision: 0.055
+  Recall: 0.918
+  F1-Score: 0.103
+  mAP @ IoU=0.50:0.95: 0.076
+  mAP @ IoU=0.50: 0.167
+  mAP @ IoU=0.75: 0.060
+
+Per-class Metrics:
+  car:
+    Precision: 0.060
+    Recall: 0.955
+    F1-Score: 0.113
+    TP: 9696, FP: 151986, FN: 454
+
+  bus:
+    Precision: 0.085
+    Recall: 0.504
+    F1-Score: 0.145
+    TP: 71, FP: 764, FN: 70
+
+  person:
+    Precision: 0.026
+    Recall: 0.741
+    F1-Score: 0.050
+    TP: 825, FP: 31127, FN: 289
+
+  truck:
+    Precision: 0.066
+    Recall: 0.707
+    F1-Score: 0.121
+    TP: 299, FP: 4235, FN: 124
+
+  motorcycle:
+    Precision: 0.000
+    Recall: 0.000
+    F1-Score: 0.000
+    TP: 0, FP: 513, FN: 0
+
+  bicycle:
+    Precision: 0.068
+    Recall: 0.423
+    F1-Score: 0.117
+    TP: 33, FP: 451, FN: 45
+
