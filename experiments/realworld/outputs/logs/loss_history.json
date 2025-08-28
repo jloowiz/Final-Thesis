@@ -1,0 +1,107 @@
+{
+  "train_losses": [
+    6.440674949496931,
+    4.656843103269912,
+    3.8858070377769947,
+    3.3862213690369845,
+    2.980462299147042,
+    2.638069222282559,
+    2.373314867646402
+  ],
+  "val_losses": [
+    5.181314722020575,
+    4.304490174384827,
+    3.939654018016572,
+    3.8560216794622706,
+    3.8334687098543694,
+    3.772199498846176,
+    3.7601601874574704
+  ],
+  "epochs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "config": {
+    "dataset": {
+      "name": "realworld_6k",
+      "data_dir": "D:/Thesis SSD/data/realworld/subset6k",
+      "train_annotations": "D:/Thesis SSD/data/realworld/subset6k/train/annotations/instances_train6k.json",
+      "val_annotations": "D:/Thesis SSD/data/realworld/subset6k/val/annotations/instances_val6k.json",
+      "train_images": "D:/Thesis SSD/data/realworld/subset6k/train/images",
+      "val_images": "D:/Thesis SSD/data/realworld/subset6k/val/images"
+    },
+    "model": {
+      "name": "ssd300_vgg16",
+      "num_classes": 7,
+      "backbone": "vgg16",
+      "pretrained": true,
+      "input_size": 300
+    },
+    "classes": {
+      "background": 0,
+      "Car": 1,
+      "Bus": 2,
+      "Person": 3,
+      "Truck": 4,
+      "Motorcycle": 5,
+      "Bicycle": 6
+    },
+    "training": {
+      "batch_size": 8,
+      "num_epochs": 20,
+      "learning_rate": 0.001,
+      "weight_decay": 0.0005,
+      "momentum": 0.9,
+      "step_size": 10,
+      "gamma": 0.5
+    },
+    "augmentation": {
+      "horizontal_flip": 0.5,
+      "color_jitter": {
+        "brightness": 0.2,
+        "contrast": 0.2,
+        "saturation": 0.2,
+        "hue": 0.1
+      },
+      "random_crop": true,
+      "normalize": {
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ]
+      }
+    },
+    "output": {
+      "experiment_name": "realworld_ssd300",
+      "save_dir": "experiments/realworld/outputs",
+      "checkpoint_dir": "experiments/realworld/outputs/checkpoints",
+      "model_dir": "experiments/realworld/outputs/models",
+      "log_dir": "experiments/realworld/outputs/logs",
+      "save_every": 5
+    },
+    "evaluation": {
+      "eval_every": 5,
+      "save_best": true,
+      "metric": "mAP"
+    },
+    "device": "cuda",
+    "num_workers": 4,
+    "pin_memory": true,
+    "logging": {
+      "level": "INFO",
+      "print_every": 50,
+      "tensorboard": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# SSD300 Training Configuration
+
+# Training parameters
+num_epochs: 20
+batch_size: 8
+learning_rate: 0.001
+momentum: 0.9
+weight_decay: 0.0005
+
+# Model parameters
+num_classes: 6  # Car, Bus, Person, Truck, Motorcycle, Bicycle (background is handled automatically)
+
+# Dataset paths
+train_annotations: "merged_dataset/train/annotations/train_annotations.json"
+train_images: "merged_dataset/train/images"
+val_annotations: "merged_dataset/val/annotations/val_annotations.json"
+val_images: "merged_dataset/val/images"
+
+# Output directories
+checkpoint_dir: "checkpoints"
+output_dir: "output"
+
+# Data loading
+num_workers: 4
+pin_memory: true
